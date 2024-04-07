@@ -3032,7 +3032,7 @@ input, select, textarea {
 
 			.profiles > * {
 				padding: 2rem;
-				width: 33.33333%;
+				width: 50%;
 			}
 
 		}
@@ -3715,7 +3715,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		background-attachment: fixed;
-		background-image: url("../../images/banner.jpg");
+		/*background-image: url("../../images/banner.jpg");*/
 		background-position: bottom left;
 		background-size: cover;
 		cursor: default;
@@ -4129,3 +4129,10 @@ input, select, textarea {
 			}
 
 		}
+
+		.wrlogo {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		  }
