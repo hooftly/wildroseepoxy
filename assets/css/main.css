@@ -3709,7 +3709,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		background-attachment: fixed;
-		/*background-image: url("../../images/banner.jpg");*/
+		background-image: url("../../images/banner2.jpg");
 		background-position: bottom left;
 		background-size: cover;
 		cursor: default;
@@ -4130,3 +4130,12 @@ input, select, textarea {
 			margin-right: auto;
 			width: 50%;
 		  }
+		  
+		@media screen and (max-width:736px) {
+			.wrlogo {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 75%;
+			}
+		}
